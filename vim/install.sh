@@ -51,8 +51,7 @@ get_bundle tpope vim-unimpaired
 get_bundle tpope vim-vividchalk
 get_bundle vim-scripts bufkill.vim
 
-get_bundle christoomey vim-tmux-navigator
-get_bundle christoomey vim-tmux-runner
-get_bundle thoughtbot vim-rspec
 get_bundle rizzatti dash.vim
+get_bundle aliou markoff.vim
+get_bundle elixir-lang vim-elixir
 vim -c 'call pathogen#helptags()|q'
