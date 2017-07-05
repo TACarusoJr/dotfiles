@@ -54,4 +54,5 @@ get_bundle vim-scripts bufkill.vim
 get_bundle rizzatti dash.vim
 get_bundle aliou markoff.vim
 get_bundle elixir-lang vim-elixir
+get_bundle mxw vim-jsx
 vim -c 'call pathogen#helptags()|q'
