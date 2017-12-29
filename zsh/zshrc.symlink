@@ -44,8 +44,11 @@ cdpath=(. ~ ~/src $SOURCE_DIR)
 [[ ! -a /usr/local/share/chruby/auto.sh ]] || source /usr/local/share/chruby/auto.sh
 
 
+export PATH=$PATH:/usr/local/bin:~/bin
 # import local zsh customizations, if present
 zrcl="$HOME/.zshrc.local"
 [[ ! -a $zrcl ]] || source $zrcl
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+
+
