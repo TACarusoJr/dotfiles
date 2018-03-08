@@ -18,6 +18,7 @@
 .netrwhist
 .sass-cache
 .svn
+.pryrc
 /*.tmproj
 /nbproject/
 tags
