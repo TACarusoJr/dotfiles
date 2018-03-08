@@ -32,6 +32,9 @@ done
 
 unset config_files
 
+# I want to use [ and ] damn it!
+unsetopt nomatch
+
 # set cd autocompletion to commonly visited directories
 cdpath=(. ~ ~/src $SOURCE_DIR)
 
@@ -43,8 +46,8 @@ cdpath=(. ~ ~/src $SOURCE_DIR)
 [[ ! -a /usr/local/share/chruby/chruby.sh ]] || source /usr/local/share/chruby/chruby.sh
 [[ ! -a /usr/local/share/chruby/auto.sh ]] || source /usr/local/share/chruby/auto.sh
 
-
 export PATH=$PATH:/usr/local/bin:~/bin
+
 # import local zsh customizations, if present
 zrcl="$HOME/.zshrc.local"
 [[ ! -a $zrcl ]] || source $zrcl
