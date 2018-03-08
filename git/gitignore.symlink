@@ -23,3 +23,7 @@
 /nbproject/
 tags
 tmp
+.csslintrc
+.eslintignore
+.eslintrc
+.rubocop.yml
